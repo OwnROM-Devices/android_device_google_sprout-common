@@ -30,7 +30,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/root/fstab.sprout
 
-TARGET_KERNEL_SOURCE := kernel/mediatek/own-sprout
+TARGET_KERNEL_SOURCE := /home/akhilnarang/OwnKernel-sprout
 TARGET_KERNEL_CONFIG := sprout_defconfig
 
 BOARD_RECOVERY_SWIPE := true
